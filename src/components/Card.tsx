@@ -13,7 +13,10 @@ function Card(props: iCard) {
           {props.note.date}
         </p>
         <div className="rounded-full w-8 h-8 bg-white grid place-items-center">
-          <img src="https://img.icons8.com/small/16/000000/checked--v1.png" />
+          <img
+            alt="complete task"
+            src="https://img.icons8.com/small/16/000000/checked--v1.png"
+          />
         </div>
       </div>
     </div>
